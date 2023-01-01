@@ -1,7 +1,8 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 
-const backendUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:4444' : '';
+//  Change this to the correct IP address of your cloud server!
+const backendUrl = 'http://167.99.218.94:4444/';
 
 function App() {
 
