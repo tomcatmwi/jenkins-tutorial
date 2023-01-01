@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3>And now, a message from our backend...</h3>
+      <h3>A message from our backend...</h3>
 
       <pre>{message}</pre>
 
